@@ -192,6 +192,11 @@ export const DATE_PIPE_DEFAULT_OPTIONS =
  * {{ dateObj | date:'mm:ss' }}       // output is '43:11'
  * ```
  *
+ * This can be also used to add any custom strings as required
+ * ```
+ * {{ dateObj | date:'MMM dd, yyyy 'at' hh:mm a' }}               // output is 'Jun 15, 2015 at 9:43 PM'
+ * ```
+ *
  * ### Usage example
  *
  * The following component uses a date pipe to display the current date in different formats.
